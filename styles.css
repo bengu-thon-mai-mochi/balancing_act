@@ -8,6 +8,20 @@ nav{
     position: fixed;
 }
 
+.business-logo{
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    max-width: 80px;
+}
+
+.nav-icon{
+    position: fixed;
+    top: 250px;
+    width: 70px;
+    padding: 10px;
+}
+
 main,
 header {
     margin-left: 140px;
@@ -22,9 +36,7 @@ header {
     width: 50%;
     float: right;
 }
-img{
-    max-width: 70px;
-}
+
 
 .account-list img{
     width: 30px;
