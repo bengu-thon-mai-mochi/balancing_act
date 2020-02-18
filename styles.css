@@ -13,8 +13,7 @@ body {
 
 header {
     margin-top: 20px;
-    clear: both;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -25,49 +24,52 @@ h4 {
     font-size: 1.15em;
 }
 
-.account-overview div{
-    background: white;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    height: 80px;
-    padding-left: 13px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    box-sizing: border-box;
-    box-shadow: 1px 1px rgba(0,0,0,0.05);
-}
-.account-overview div:first-child{
-    margin-right: 21px;
+h6 {
+    font-size: 0.65em;
+    color: 
 }
 
-.account-overview div:last-child{
-    margin-left: 21px;
+.account-overview div,
+.welcome-message{
+    height: 90px;
+    border-radius: 4px;
+    box-shadow: 1px 2px rgba(0,0,0,0.05);
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.account-overview div{
+    background: white;
+    padding-left: 4%;
+}
+
+.user-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.account-overview div:nth-child(2){
+    margin-right: 26px;
+    margin-left: 26px;
 }
 
 .welcome-message {
     background-image: linear-gradient(to right, #8ED1DC , #E3F4F6);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 2px 1px rgba(0,0,0,0.05);
 }
 
 .welcome-message h4 {
-    padding: 25px;
-}
-
-.user-info > div { 
-    height: 80px;
-    width: 500px;
-    border-radius: 5px;
+   padding-left: 5%;
+   font-size: 1.25em;
 }
 
 nav > * {
     background: white;
 }
 
-
 li ul {
     height: 60px;
-    width: 500px;
     margin: 5px;
     background: white;
     border-radius: 5px;
@@ -106,20 +108,27 @@ nav {
     position: relative;
 }
 
+.welcome-message,
+.account-overview, 
+.section-heading,
+li ul {
+    width: 600px;
+}
 
-main,
 header {
     margin-left: 90px;
 }
 
 .left-section{
-    width: 40%;
+    width: 50%;
     float: left;
+    margin-left: 90px;
 }
 
 .right-section{
-    width: 50%;
-    float: right;
+    float: left;
+    width: 30%;
+    margin: 30px;
 }
 
 li img{
@@ -131,7 +140,6 @@ li img{
     margin-top: 30px;
     display: block;
     margin-left: 0;
-    width: 500px;
     margin-bottom: 14px;
 }
 
