@@ -5,6 +5,7 @@
 nav{
     height: 100%;
     width: 50px;
+
     position: fixed;
 }
 
@@ -12,13 +13,13 @@ nav{
     position: fixed;
     top: 0;
     padding-top: 10px;
-    max-width: 80px;
+    max-width: 60px;
 }
 
 .nav-icon{
     position: fixed;
     top: 250px;
-    width: 70px;
+    width: 60px;
     padding: 10px;
 }
 
