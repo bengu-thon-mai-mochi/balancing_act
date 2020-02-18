@@ -6,6 +6,11 @@
     color: #363636;
 }
 
+nav > *,
+.right-section {
+    background: white;
+}
+
 body {
     padding: 5px;
     background-color: #F5F5F5;
@@ -26,7 +31,6 @@ h4 {
 
 h6 {
     font-size: 0.65em;
-    color: 
 }
 
 .account-overview div,
@@ -40,17 +44,16 @@ h6 {
 
 .account-overview div{
     background: white;
-    padding-left: 4%;
+    padding-left: 3%;
 }
 
 .user-info{
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .account-overview div:nth-child(2){
-    margin-right: 26px;
-    margin-left: 26px;
+    margin-right: 22px;
+    margin-left: 22px;
 }
 
 .welcome-message {
@@ -62,10 +65,6 @@ h6 {
 .welcome-message h4 {
    padding-left: 5%;
    font-size: 1.25em;
-}
-
-nav > * {
-    background: white;
 }
 
 li ul {
@@ -80,7 +79,7 @@ nav {
     top: 0;
     left: 0;
     height: 100%;
-    width: 70px;
+    width: 75px;
     position: fixed;
     background: white;
 }
@@ -111,24 +110,29 @@ nav {
 .welcome-message,
 .account-overview, 
 .section-heading,
-li ul {
-    width: 600px;
+li ul,
+.left-section,
+.right-section {
+    width: 520px;
 }
 
-header {
-    margin-left: 90px;
+header,
+.left-section {
+    margin-left: 100px;
 }
 
 .left-section{
-    width: 50%;
     float: left;
-    margin-left: 90px;
+}
+
+.right-section,
+.left-section{
+    margin-top: 10px;
 }
 
 .right-section{
-    float: left;
-    width: 30%;
-    margin: 30px;
+    float: right;
+    margin-right: 40px;
 }
 
 li img{
