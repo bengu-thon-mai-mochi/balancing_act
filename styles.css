@@ -3,28 +3,90 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Biryani', sans-serif;
+    color: #363636;
 }
 
 body {
+    padding: 5px;
     background-color: #F5F5F5;
+}
+
+header {
+    margin-top: 20px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.15em;
+}
+
+.account-overview div{
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 80px;
+    padding-left: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px rgba(0,0,0,0.05);
+}
+.account-overview div:first-child{
+    margin-right: 21px;
+}
+
+.account-overview div:last-child{
+    margin-left: 21px;
+}
+
+.welcome-message {
+    background-image: linear-gradient(to right, #8ED1DC , #E3F4F6);
+    margin-bottom: 10px;
+    box-shadow: 2px 1px rgba(0,0,0,0.05);
+}
+
+.welcome-message h4 {
+    padding: 25px;
+}
+
+.user-info > div { 
+    height: 80px;
+    width: 500px;
+    border-radius: 5px;
 }
 
 nav > * {
     background: white;
 }
 
+
+li ul {
+    height: 60px;
+    width: 500px;
+    margin: 5px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 1px rgba(0,0,0,0.05);
+}
+
 nav {
+    top: 0;
+    left: 0;
     height: 100%;
-    width: 60px;
+    width: 70px;
     position: fixed;
     background: white;
 }
 
 .business-logo{
     position: fixed;
-    top: 0;
     padding-top: 10px;
-    max-width: 60px;
+    width: 70px;
 }
 
 .nav-icon{
@@ -44,13 +106,10 @@ nav {
     position: relative;
 }
 
+
 main,
 header {
-    margin-left: 100px;
-}
-
-header {
-
+    margin-left: 90px;
 }
 
 .left-section{
@@ -69,17 +128,34 @@ li img{
 
 .section-heading {
     position: relative;
+    margin-top: 30px;
     display: block;
+    margin-left: 0;
+    width: 500px;
+    margin-bottom: 14px;
 }
 
 .section-heading h2{
+    margin-top: 10px;
+    font-size: 1.35em;
     display: inline-block;
-    width: 40%;
-    clear: both;
 }
 
-.section-heading h2{
-    display: inline;
+.section-heading button {
+    float: right;
+}
+
+button {
+    margin-top: 7px;
+    left: 0;
+    background: #1CA3BA;
+    border: 0px;
+    width: 32%;
+    height: 34px;
+    font-size: 0.7em;
+    color: white;
+    box-shadow: 2px 1px rgba(0,0,0,0.05);
+    -webkit-border-radius: 30;  -moz-border-radius: 30;  border-radius: 30px;
 }
 
 li{
