@@ -1,11 +1,23 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Biryani', sans-serif;
 }
 
-nav{
+body {
+    background-color: #F5F5F5;
+}
+
+nav > * {
+    background: white;
+}
+
+nav {
     height: 100%;
-    width: 50px;
+    width: 60px;
     position: fixed;
+    background: white;
 }
 
 .business-logo{
@@ -17,15 +29,15 @@ nav{
 
 .nav-icon{
     position: fixed;
-    top: 250px;
-    width: 60px;
+    top: 230px;
+    width: 55px;
     padding: 10px;
+    margin: 5px;
 }
 
 .account-overview div{
     display: inline-block;
-    /*float: left;
-    position: relative;*/
+    width: 30%;
 }
 
 .user-info{
@@ -34,11 +46,15 @@ nav{
 
 main,
 header {
-    margin-left: 140px;
+    margin-left: 100px;
+}
+
+header {
+
 }
 
 .left-section{
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
@@ -53,10 +69,17 @@ li img{
 
 .section-heading {
     position: relative;
+    display: block;
 }
 
 .section-heading h2{
     display: inline-block;
+    width: 40%;
+    clear: both;
+}
+
+.section-heading h2{
+    display: inline;
 }
 
 li{
